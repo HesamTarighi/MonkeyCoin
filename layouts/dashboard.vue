@@ -2,7 +2,7 @@
     <nav>
         <CNav />
     </nav>
-    <main>
+    <main class="bg-primary">
         <aside>
             
         </aside>
@@ -14,4 +14,8 @@
 
 <script setup>
     import CNav from '~/components/Dashboard/nav.vue'
+
+    useHead({
+        title: 'Dashboard'
+    })
 </script>
